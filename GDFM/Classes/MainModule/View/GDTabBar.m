@@ -50,11 +50,10 @@
     // 设置tabBar 背景图片
     self.backgroundImage = [UIImage imageNamed:@"tabbar_bg"];
     
-//    //添加一个按钮，准备放在中间
-//    CGFloat width = 65;
-//    CGFloat height = 65;
-//    self.middleView.frame = CGRectMake((kScreenWidth - width) * 0.5, (kScreenHeight - height), width, height);
-    
+    //添加一个按钮，准备放在中间
+    CGFloat width = 65;
+    CGFloat height = 65;
+    self.middleView.frame = CGRectMake((kScreenWidth - width) * 0.5, (kScreenHeight - height), width, height);
 }
 
 - (void)setMiddleClickBlock:(void (^)(BOOL))middleClickBlock {
@@ -62,6 +61,7 @@
 }
 
 - (void)layoutSubviews {
+    
     //添加一个按钮，准备放在中间
     CGFloat width = 65;
     CGFloat height = 65;
@@ -106,24 +106,23 @@
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
     
-//    // 设置允许交互的区域
-//    // 1. 转换点击在tabbar上的坐标点, 到中间按钮上
-//    CGPoint pointInMiddleBtn = [self convertPoint:point toView:self.middleView];
-//
-//    // 2.确定中间按钮的圆心
-//    CGPoint middleBtnCenter = CGPointMake(33, 33);
-//
-//    // 3.计算点击的位置距离圆心的距离
-//    CGFloat distance = sqrt(pow(pointInMiddleBtn.x - middleBtnCenter.x, 2));
-//
-//    // 4.判断中间按钮区域之外
-//    if (distance > 33 && pointInMiddleBtn.y < 18) {
-//        return NO;
-//    }
-//
-//    return YES;
-    
+    // 设置允许交互的区域
+    // 1. 转换点击在tabbar上的坐标点, 到中间按钮上
+    CGPoint pointInMiddleBtn = [self convertPoint:point toView:self.middleView];
+
+    // 2.确定中间按钮的圆心
+    CGPoint middleBtnCenter = CGPointMake(33, 33);
+
+    // 3.计算点击的位置距离圆心的距离
+    CGFloat distance = sqrt(pow(pointInMiddleBtn.x - middleBtnCenter.x, 2));
+
+    // 4.判断中间按钮区域之外
+    if (distance > 33 && pointInMiddleBtn.y < 18) {
+        return NO;
+    }
+
     return YES;
+    
 }
 
 @end

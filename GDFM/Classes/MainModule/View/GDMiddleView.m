@@ -34,6 +34,7 @@ static GDMiddleView *_shareInstance;
 }
 
 - (void)awakeFromNib {
+    
     [super awakeFromNib];
     
     self.middleImageView.layer.masksToBounds = YES;
@@ -50,7 +51,6 @@ static GDMiddleView *_shareInstance;
     [self.middleImageView.layer addAnimation:basicAnimation forKey:@"playAnnimation"];
     
     [self.middleImageView.layer pauseAnimate];
-    
     
     [self.playBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     
@@ -70,7 +70,6 @@ static GDMiddleView *_shareInstance;
 - (void)setPlayImage:(NSNotification *)notification {
     UIImage *image = notification.object;
     self.middleImg = image;
-
 }
 
 - (void)btnClick:(UIButton *)btn {
@@ -105,7 +104,6 @@ static GDMiddleView *_shareInstance;
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.middleImageView.layer.cornerRadius = self.middleImageView.frame.size.width * 0.5;
-
 }
 
 - (void)dealloc {
