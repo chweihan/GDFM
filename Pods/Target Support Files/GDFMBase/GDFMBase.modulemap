@@ -1,0 +1,6 @@
+framework module GDFMBase {
+  umbrella header "GDFMBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

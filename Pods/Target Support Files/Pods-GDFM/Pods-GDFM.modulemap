@@ -1,0 +1,6 @@
+framework module Pods_GDFM {
+  umbrella header "Pods-GDFM-umbrella.h"
+
+  export *
+  module * { export * }
+}

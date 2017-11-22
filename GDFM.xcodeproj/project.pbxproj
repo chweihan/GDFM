@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BFA39C489C6EBC4C97FEC5 /* Pods_GDFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34657A32C9D86AA31926D185 /* Pods_GDFM.framework */; };
 		E75278D51F5FF1BC00788F93 /* GDNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E75278D41F5FF1BC00788F93 /* GDNavBar.m */; };
-		E75278D81F5FF65500788F93 /* UIImage+GDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E75278D71F5FF65500788F93 /* UIImage+GDImage.m */; };
 		E7736AAE1F60008800A8C413 /* GDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7736AAD1F60008800A8C413 /* GDTestViewController.m */; };
 		E7884F681EFD03190002A12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7884F661EFD03190002A12F /* Main.storyboard */; };
 		E7884F6D1EFD03190002A12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7884F6B1EFD03190002A12F /* LaunchScreen.storyboard */; };
@@ -22,10 +22,8 @@
 		E79435091F5F9A8C0070E5DD /* GDMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79435081F5F9A8C0070E5DD /* GDMiddleView.m */; };
 		E794350B1F5F9A970070E5DD /* GDMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E794350A1F5F9A970070E5DD /* GDMiddleView.xib */; };
 		E794350D1F5F9C310070E5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E794350C1F5F9C310070E5DD /* Assets.xcassets */; };
-		E79435101F5FA7890070E5DD /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E794350F1F5FA7890070E5DD /* CALayer+PauseAimate.m */; };
 		E79435131F5FD2670070E5DD /* GDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E79435121F5FD2670070E5DD /* GDTabBar.m */; };
 		E79435161F5FD31F0070E5DD /* GDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79435151F5FD31F0070E5DD /* GDNavigationController.m */; };
-		E79435191F5FD3800070E5DD /* UIView+GDLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E79435181F5FD3800070E5DD /* UIView+GDLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1465E73BAA7C82E43DBBC227 /* Pods-GDFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDFM/Pods-GDFM.debug.xcconfig"; sourceTree = "<group>"; };
+		34657A32C9D86AA31926D185 /* Pods_GDFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B273A58FFBBDC5836673705 /* Pods-GDFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDFM/Pods-GDFM.release.xcconfig"; sourceTree = "<group>"; };
 		E75278D31F5FF1BC00788F93 /* GDNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNavBar.h; sourceTree = "<group>"; };
 		E75278D41F5FF1BC00788F93 /* GDNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNavBar.m; sourceTree = "<group>"; };
-		E75278D61F5FF65500788F93 /* UIImage+GDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GDImage.h"; sourceTree = "<group>"; };
-		E75278D71F5FF65500788F93 /* UIImage+GDImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GDImage.m"; sourceTree = "<group>"; };
 		E7736AAC1F60008700A8C413 /* GDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTestViewController.h; sourceTree = "<group>"; };
 		E7736AAD1F60008800A8C413 /* GDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTestViewController.m; sourceTree = "<group>"; };
 		E7884F5A1EFD03190002A12F /* GDFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,14 +72,10 @@
 		E79435081F5F9A8C0070E5DD /* GDMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMiddleView.m; sourceTree = "<group>"; };
 		E794350A1F5F9A970070E5DD /* GDMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDMiddleView.xib; sourceTree = "<group>"; };
 		E794350C1F5F9C310070E5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E794350E1F5FA7890070E5DD /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		E794350F1F5FA7890070E5DD /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
 		E79435111F5FD2670070E5DD /* GDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabBar.h; sourceTree = "<group>"; };
 		E79435121F5FD2670070E5DD /* GDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabBar.m; sourceTree = "<group>"; };
 		E79435141F5FD31F0070E5DD /* GDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNavigationController.h; sourceTree = "<group>"; };
 		E79435151F5FD31F0070E5DD /* GDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNavigationController.m; sourceTree = "<group>"; };
-		E79435171F5FD3800070E5DD /* UIView+GDLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GDLayout.h"; sourceTree = "<group>"; };
-		E79435181F5FD3800070E5DD /* UIView+GDLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GDLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BFA39C489C6EBC4C97FEC5 /* Pods_GDFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14EA1FC153E508F0DC6BBD9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1465E73BAA7C82E43DBBC227 /* Pods-GDFM.debug.xcconfig */,
+				9B273A58FFBBDC5836673705 /* Pods-GDFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		236AE588DF4C5E2752B16965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34657A32C9D86AA31926D185 /* Pods_GDFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7884F511EFD03190002A12F = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,8 @@
 				E7884F761EFD031A0002A12F /* GDFMTests */,
 				E7884F811EFD031A0002A12F /* GDFMUITests */,
 				E7884F5B1EFD03190002A12F /* Products */,
+				14EA1FC153E508F0DC6BBD9F /* Pods */,
+				236AE588DF4C5E2752B16965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,23 +191,9 @@
 		E7884F911EFD08F30002A12F /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				E7884F921EFD08F30002A12F /* Category */,
 			);
 			name = BaseClasses;
 			path = ../../BaseClasses;
-			sourceTree = "<group>";
-		};
-		E7884F921EFD08F30002A12F /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				E794350E1F5FA7890070E5DD /* CALayer+PauseAimate.h */,
-				E794350F1F5FA7890070E5DD /* CALayer+PauseAimate.m */,
-				E79435171F5FD3800070E5DD /* UIView+GDLayout.h */,
-				E79435181F5FD3800070E5DD /* UIView+GDLayout.m */,
-				E75278D61F5FF65500788F93 /* UIImage+GDImage.h */,
-				E75278D71F5FF65500788F93 /* UIImage+GDImage.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		E7884F931EFD08F30002A12F /* Classes */ = {
@@ -269,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7884F871EFD031A0002A12F /* Build configuration list for PBXNativeTarget "GDFM" */;
 			buildPhases = (
+				20D2F311678C706ECC1E1CB7 /* [CP] Check Pods Manifest.lock */,
 				E7884F561EFD03190002A12F /* Sources */,
 				E7884F571EFD03190002A12F /* Frameworks */,
 				E7884F581EFD03190002A12F /* Resources */,
+				837264105D7F93A832476936 /* [CP] Embed Pods Frameworks */,
+				B9C2B837E070E11BCC758EBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -396,6 +400,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20D2F311678C706ECC1E1CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDFM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837264105D7F93A832476936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GDFM/Pods-GDFM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GDFMBase/GDFMBase.framework",
+				"${BUILT_PRODUCTS_DIR}/GDSegmentBar/GDSegmentBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDFMBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDSegmentBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDFM/Pods-GDFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C2B837E070E11BCC758EBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDFM/Pods-GDFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7884F561EFD03190002A12F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -406,9 +466,6 @@
 				E75278D51F5FF1BC00788F93 /* GDNavBar.m in Sources */,
 				E7736AAE1F60008800A8C413 /* GDTestViewController.m in Sources */,
 				E7884FA21F00B9530002A12F /* ViewController.m in Sources */,
-				E75278D81F5FF65500788F93 /* UIImage+GDImage.m in Sources */,
-				E79435191F5FD3800070E5DD /* UIView+GDLayout.m in Sources */,
-				E79435101F5FA7890070E5DD /* CALayer+PauseAimate.m in Sources */,
 				E7884F9F1EFD08F30002A12F /* main.m in Sources */,
 				E79435061F5F98A80070E5DD /* GDTabBarController.m in Sources */,
 				E7884F9D1EFD08F30002A12F /* AppDelegate.m in Sources */,
@@ -559,6 +616,7 @@
 		};
 		E7884F881EFD031A0002A12F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1465E73BAA7C82E43DBBC227 /* Pods-GDFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -575,6 +633,7 @@
 		};
 		E7884F891EFD031A0002A12F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B273A58FFBBDC5836673705 /* Pods-GDFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
